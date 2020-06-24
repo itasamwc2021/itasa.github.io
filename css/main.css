@@ -102,6 +102,31 @@ nav a:hover{
     color: #eeeeee;
 }
 
+a.nave:link, a.nave:active, a.nave:visited {
+	display: block;
+	font-size: 10pt;
+	font-family: roboto;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	
+	height: 34px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #000000;
+	background-color: #D0D6D0;
+	text-decoration: none;
+	margin: 10px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    
+    
+    border-radius: 5px;
+}
+a.nave:hover {
+	background-color: #C3C8C3;
+}
+
 .skip a{
   background: white;
   left: 0;
