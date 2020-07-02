@@ -114,7 +114,7 @@ a.nave:link, a.nave:active, a.nave:visited {
 	float: left;
 	text-align: center;
 	color: #000000;
-	background-color: #D0D6D0;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #D0D6D0;
 	text-decoration: none;
 	margin: 10px;
     padding-top: 15px;
