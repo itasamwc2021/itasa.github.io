@@ -43,7 +43,7 @@
             University of Michigan MWC 2021</h2></div>
     <nav class="nav2">
         
-      <a href="#home"><img src="images/logo%20grey.png" alt="logo" class="logo"></a>
+      <a href="#home"><img src="images/logo%20black.png" alt="logo" class="logo"></a>
 <div class="links-wrapper">
         
         <ul class="links">
@@ -243,6 +243,7 @@ $(document).ready(function () {
       }
     });
     // MARK: - Nav Bar Variable Initialization
+  
     var navBar = $('.links'),
         sectionLinkItems =  navBar.find('a[href*="#"]'),
         sectionsBeingScrolled = sectionLinkItems.map(function(){
@@ -254,6 +255,7 @@ $(document).ready(function () {
 
     var targetSection = "";
     var isHyperScrolling = false;
+    
     
     sectionLinkItems.click(function () {
         targetSection = jQuery(this).attr("href");
@@ -277,12 +279,19 @@ $(document).ready(function () {
         })
 
         var elementId = "";
+        
+        
+        
         if (current.length > 1) {
             current = current[current.length-1];
             elementId = '#' + current[current.length-1].id;
         } else if (scrollTop > $(window).height()/2) {
             elementId = "#about";
+            
         }
+        
+        
+        
         
         if (isHyperScrolling && elementId == targetSection)
             isHyperScrolling = false;
@@ -290,6 +299,7 @@ $(document).ready(function () {
         sectionLinkItems.map(function() {
             if (isHyperScrolling || jQuery(this).attr("href") != elementId)
                 jQuery(this).removeClass("active");
+            
             else
                 jQuery(this).addClass("active");
         })
@@ -311,6 +321,21 @@ $(document).ready(function () {
     })
 })
 
+        
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+     //>=, not <=
+    if (scroll >= 500) {
+        $(".nav2").addClass("navactive");
+        $(".links").addClass("links2");
+    } else {
+        
+        $(".nav2").removeClass("navactive");
+        $(".links").removeClass("links2");
+    }
+}); //missing ); 
+        
 $(window).scroll(function(){
     $(".backgroundtext").css("opacity", 1 - $(window).scrollTop() / 250);
   });

@@ -75,12 +75,13 @@ nav ul{
 nav li{
   display: inline-block;
   margin-right: 15px;
+    margin-top: 10px;
     padding: 8px;
   text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
-    
     text-align: center;
+    
 }
 nav li:hover{
     text-decoration:none;
@@ -91,15 +92,15 @@ nav a{
   font-family: 'Roboto-thin', sans-serif;
   text-decoration: none;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: bold;
     
     
 }
 
 nav a:hover{
   text-decoration:none;
-    background: #aaaaaa;
-    color: #eeeeee;
+    
+    
 }
 
 a.nave:link, a.nave:active, a.nave:visited {
@@ -125,6 +126,7 @@ a.nave:link, a.nave:active, a.nave:visited {
 }
 a.nave:hover {
 	background-color: #C3C8C3;
+    transition: background ease-in-out 0.25s;
 }
 
 .skip a{
@@ -212,7 +214,23 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
 .nav2{
     width: 100%;
-    background: #ffffff;
+    background: transparent;
+    padding: 10px 30px;
+    align-items: center;
+    
+/*    border-bottom: 2px solid #eeeeee;*/
+    position: fixed;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+/*    box-shadow: 1px 2px 4px rgba(0, 0, 0, .05);*/
+    z-index: 1;
+
+}
+
+.navactive{
+    width: 100%;
+    background: #FFFFFF;
     padding: 10px 30px;
     align-items: center;
     
@@ -252,18 +270,43 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     margin-right: 14px;
     padding: 10px;
     border-radius: 10px;
+    
 }
 
 .links li a {
     text-decoration: none;
-    color: #999999;
-    letter-spacing: -0.5px;
+/*    color: #999999;*/
+    color: #ffffff;
+    letter-spacing: 1px;
+font-weight: 100;
     padding: 10px;
     border-radius: 10px;
+    border-bottom: 1px white solid;
+    
+}
+
+.links2 li a {
+    text-decoration: none;
+    color: #999999;
+/*    color: #ffffff;*/
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
 }
 
 .links li a:hover, .links li a:active {
+    color: #2f2f2F;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #D0D6D0;
+    
+    transition: background ease-in-out 0.25s;
+}
+
+.links2 li a:hover, .links2 li a:active {
     color: #FFFFFF;
+    background: #aaaaaa;
 }
 
 
