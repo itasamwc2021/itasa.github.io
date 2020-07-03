@@ -280,7 +280,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     letter-spacing: 1px;
 font-weight: 100;
     padding: 10px;
-    border-radius: 10px;
+    
     border-bottom: 1px white solid;
     
 }
@@ -298,6 +298,7 @@ font-weight: 100;
 }
 
 .links li a:hover, .links li a:active {
+    border-radius: 10px;
     color: #2f2f2F;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #D0D6D0;
     
