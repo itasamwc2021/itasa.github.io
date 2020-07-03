@@ -1,5 +1,5 @@
 body{
-  background: #eeeeee;
+  background: #F5F5F5;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -673,7 +673,7 @@ header p{
     grid-column: 1/span 6;
     align-items: center;
     grid-row: 12/span 1;
-    background: #eeeeee;
+    background: #F5F5F5;
     color: black;
     margin-top: 20px; 
     padding-top: 0px; 
@@ -1856,7 +1856,7 @@ header p{
     grid-column: 1/span 6;
     align-items: center;
     grid-row: 12/span 1;
-    background: #eeeeee;
+    background: #F5F5F5;
     color: black;
     margin-top: 20px; 
     padding-top: 0px; 
@@ -3131,7 +3131,7 @@ header p{
     grid-column: 1/span 6;
     align-items: center;
     grid-row: 12/span 1;
-    background: #eeeeee;
+    background: #F5F5F5;
     color: black;
     margin-top: 20px; 
     padding-top: 0px; 
