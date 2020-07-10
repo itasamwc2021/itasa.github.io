@@ -115,7 +115,7 @@ a.nave:link, a.nave:active, a.nave:visited {
 	float: left;
 	text-align: center;
 	color: #000000;
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #D0D6D0;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #cbddc7;
 	text-decoration: none;
 	margin: 10px;
     padding-top: 15px;
@@ -191,7 +191,7 @@ a.nave:hover {
   display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 0px;
-  grid-template-rows: 80px 60px 85vh 0px auto auto auto auto auto auto auto auto auto auto auto auto auto auto; 
+  grid-template-rows: 80px 60px 600px 0px auto auto auto auto auto auto auto auto auto auto auto auto auto auto; 
   width: 100vw; 
     
 }
