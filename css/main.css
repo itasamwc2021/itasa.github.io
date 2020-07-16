@@ -470,16 +470,16 @@ header p{
     font-family: 'Lora', sans-serif;
     color: #ffffff;
     line-height: 30px;
-    text-align: right;
+    text-align: left;
     height: 120px; 
     margin-left: 20px;
     text-transform: lowercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-style: italic;
     animation-duration: 3.5s;
   animation-name: bounceIn;
-    padding-left: 15px;
-    margin-right: 35%;
+    padding-left: 0px;
+    
     
     
 }
@@ -2971,7 +2971,7 @@ header p{
     height: 120px; 
     margin-left: 0px;
     
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-transform: lowercase;
     
     
