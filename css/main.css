@@ -2885,6 +2885,7 @@ header{
     padding-top: 0px;
     padding-left: 5%;
     padding-bottom: 30px;
+    
 }
 
 header p{
@@ -2944,7 +2945,7 @@ header p{
     grid-column: 1/span 6;
     align-items: center;
     grid-row: 2/span 1;
-    padding-top:120px;
+    padding-top:80px;
     padding-left: 30px;
     
    background: transparent;
