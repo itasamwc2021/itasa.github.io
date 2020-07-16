@@ -2580,7 +2580,7 @@ p{
     margin-top: -66px;
     
     position:fixed;
-    left: 78%;
+    left: 73%;
 }
     
 .img {
@@ -2945,7 +2945,7 @@ header p{
     grid-column: 1/span 6;
     align-items: center;
     grid-row: 2/span 1;
-    padding-top:80px;
+    padding-top:60px;
     padding-left: 30px;
     
    background: transparent;
@@ -3011,11 +3011,11 @@ header p{
     height: 30px; 
     margin-left: 5px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     margin-right: 15%;
     
     border-bottom: 1px #ffffff solid;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     border-bottom: 0px;
     
     
